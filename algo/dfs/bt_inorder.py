@@ -1,4 +1,4 @@
-from binary_node import BinaryNode, tree
+from data_structure.binary_tree.binary_node import BinaryNode, tree
 
 
 def walk(curr: BinaryNode | None, path: list[int]) -> list[int]:
